@@ -1,15 +1,12 @@
 body {
-  background: #bbbbbb;
+  background: #f2f2f2;
   margin: 0px;
   padding: 0px;
 }
-nav {
-margin: 0px;
-padding: 0px;
-}
+
 header {
   text-align: center;
-  margin: 0px;
+  margin: 10px;
   padding: 0px;
 }
 h1 {
@@ -17,17 +14,21 @@ h1 {
   font-size: 80px;
   text-align: center;
 }
+p {
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+}
 
 ul {
 list-style-type: none;
 background-color: #ffffff;
 margin: 0px;
-padding: 0px;
+padding: 4px;
 position: fixed;
 top: 1px;
 right: 0px;
 left: 0px;
-height: 70px;
+height: 50px;
 overflow: hidden;
 }
 
@@ -38,16 +39,10 @@ float: left;
 li:last-child {
 color: white;
 background-color: blue;
-border: 2px solid blue;
-border-radius: 20px;
-margin: 5px;
-}
-
-li a {
-display: block;
-text-align: center;
-padding: 14px 16px;
-text-decoration: none;
+border: 2px solid;
+border-radius: 40px;
+margin: 0px;
+text-decoration: white;
 }
 
 li a:hover:not(.active) {
@@ -58,9 +53,10 @@ li {
 display: inline-block;
 }
 
-li a, .dropbtn {
+li a {
 display: block;
 color: black;
+font-weight: 500px;
 text-align: center;
 padding: 14px 16px;
 text-decoration: blue;
@@ -75,30 +71,27 @@ header h2 {
 
 div {
   width:75%;
+  height: 200px;
   margin: auto;
 }
-div.clearfix::after {
-  content: "";
-  clear: both;
-  display: table;
+div p {
+  text-align: left;
+}
+div input {
+    text-align: left;
+    color: white;
+    background-color: blue;
+    border: solid;
+    margin: 10px;
+    text-decoration: white;
 }
 .flex-container {
 display: flex;
 flex-wrap: wrap;
 }
 .flex-container > div {
-  width: 300px;
-  margin: 2px;
+  width: 330px;
+  margin: 0px;
   text-align: left;
   line-height: 30px;
   }
-.img {
-  float: right;
-}
-h2 {
-  font-family: 'Roboto', sans-serif;
-}
-p {
-  font-family: 'Roboto', sans-serif;
-  text-align: center;
-}
