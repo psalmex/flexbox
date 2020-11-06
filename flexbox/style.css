@@ -1,5 +1,5 @@
 body {
-  background-color: #84d9ae;
+  background: #bbbbbb;
   margin: 0px;
   padding: 0px;
 }
@@ -8,62 +8,50 @@ margin: 0px;
 padding: 0px;
 }
 header {
-  background-color: #073b2c;
   text-align: center;
   margin: 0px;
   padding: 0px;
 }
 h1 {
-  font-family: 'Felipa', cursive;
+  font-family: 'Roboto', sans-serif;
   font-size: 80px;
   text-align: center;
 }
 
 ul {
 list-style-type: none;
-background-color: #073b2c;
+background-color: #ffffff;
 margin: 0px;
 padding: 0px;
 position: fixed;
-top: 0px;
+top: 1px;
 right: 0px;
 left: 0px;
-height: 50px;
+height: 70px;
 overflow: hidden;
-
 }
 
 li {
 float: left;
-border-right:1px solid #bbb;
 }
 
 li:last-child {
-border: 2px solid red;
+color: white;
+background-color: blue;
+border: 2px solid blue;
 border-radius: 20px;
-border-right: none;
+margin: 5px;
 }
 
 li a {
 display: block;
-color: white;
 text-align: center;
 padding: 14px 16px;
 text-decoration: none;
 }
 
 li a:hover:not(.active) {
-background-color: #111;
-}
-
-ol {
-list-style-type: none;
-margin: 0;
-padding: 0;
-width: 33.33%;
-height: auto;
-overflow: hidden;
-background-color: white;
+  color: red;
 }
 
 li {
@@ -75,14 +63,16 @@ display: block;
 color: black;
 text-align: center;
 padding: 14px 16px;
-text-decoration: #666;
+text-decoration: blue;
 }
+
 header h2 {
   color: white;
   font-size: 20px;
   padding: 0px;
   margin: 0px;
 }
+
 div {
   width:75%;
   margin: auto;
@@ -95,23 +85,20 @@ div.clearfix::after {
 .flex-container {
 display: flex;
 flex-wrap: wrap;
-background-color: #570f18;
 }
 .flex-container > div {
-background-color: #f1f1f1;
-width: 320px;
-margin: 5px;
-text-align: center;
-line-height: auto;
-font-size: 30px;
-}
+  width: 300px;
+  margin: 2px;
+  text-align: left;
+  line-height: 30px;
+  }
 .img {
   float: right;
 }
 h2 {
-  font-family: 'Chelsea Market', cursive;
+  font-family: 'Roboto', sans-serif;
 }
 p {
-  font-family: 'Gamja Flower', cursive;
+  font-family: 'Roboto', sans-serif;
   text-align: center;
 }
