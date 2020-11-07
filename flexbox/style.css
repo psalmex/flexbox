@@ -77,12 +77,13 @@ div {
 div p {
   text-align: left;
 }
-div input {
-    text-align: left;
+span.link {
+    display: block;
+    width: 250px;
+    text-align: center;
     color: white;
     background-color: blue;
-    border: solid;
-    margin: 10px;
+    margin: 0px;
     text-decoration: white;
 }
 .flex-container {
