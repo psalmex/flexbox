@@ -1,7 +1,8 @@
 body {
     background-color: #ffffff;
-    margin: 3px;
+    margin: 0px;
     padding: 0px;
+    height: auto;
   }
   nav {
   margin: 0px;
@@ -21,7 +22,7 @@ body {
   
   ul {
   list-style-type: none;
-  background-color: #073b2c;
+  background-color: white;
   margin: 0px;
   padding: 0px;
   position: fixed;
@@ -30,12 +31,11 @@ body {
   left: 0px;
   height: 50px;
   overflow: hidden;
-  
   }
   
   li {
   float: left;
-  border-right:1px solid #bbb;
+  border-right: 1px solid;
   }
   
   li:nth-child(2){
@@ -84,7 +84,13 @@ body {
   div {
     width:95%;
     margin: auto;
+    height: auto;
   }
+  div p {
+    text-align: left;
+    background-color: white;
+  }
+
   div.clearfix::after {
     content: "";
     clear: both;
@@ -93,23 +99,23 @@ body {
   .flex-container {
   display: flex;
   flex-wrap: wrap;
-  background-color: #570f18;
   }
   .flex-container > div {
   background-color: #f1f1f1;
   width: 245px;
   margin: 5px;
-  text-align: center;
-  line-height: auto;
-  font-size: 30px;
+  text-align: left;
   }
-  .img {
+  img {
     float: right;
+    border-width: 0px;
+    border-style: solid;
+    border-radius: 15px;
   }
   h2 {
-    font-family: 'Chelsea Market', cursive;
+    font-family: 'Roboto', sans-serif;
   }
   p {
-    font-family: 'Gamja Flower', cursive;
-    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    text-align: left;
   }
